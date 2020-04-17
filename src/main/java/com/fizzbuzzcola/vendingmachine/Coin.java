@@ -4,10 +4,10 @@ public class Coin {
 
     public String coinName;
 
-    public int coinValue;
+    public double coinValue;
 
 
-    public Coin(String coinName, int coinValue) {
+    public Coin(String coinName, double coinValue) {
         this.coinName = coinName;
         this.coinValue = coinValue;
     }
@@ -16,7 +16,7 @@ public class Coin {
         return coinName;
     }
 
-    public int getCoinValue() {
+    public double getCoinValue() {
         return coinValue;
     }
 }
